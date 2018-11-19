@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { Navigator } from './pages/navigator';
+
+const App = () => {
+	return (
+		<Navigator/>
+	);
+};
 
 ReactDOM.render((
 	<App/>
