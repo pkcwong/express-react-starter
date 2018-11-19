@@ -1,5 +1,5 @@
 {
-  "short_name": "React Starter",
-  "name": "React Starter",
+  "short_name": "Express React Starter",
+  "name": "Express React Starter",
   "start_url": "./index.html"
 }
