@@ -2,6 +2,7 @@
   "name": "example-create-react-app-express",
   "version": "1.0.0",
   "scripts": {
+    "build": "yarn install && cd client && yarn install",
     "client": "cd client && yarn start",
     "server": "nodemon main.js",
     "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
