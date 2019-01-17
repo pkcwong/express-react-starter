@@ -8,7 +8,10 @@ export const LoggerReducer = (state = initialState, action) => {
 			let logs = state['logs'].splice(0);
 			logs.push(action['payload']['log']);
 			return Object.assign({}, state, {
-				logs: logs
+				logs: [
+					...state['logs'],
+					action['payload']['log']
+				]
 			});
 		}
 		default: {
