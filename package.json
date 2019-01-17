@@ -1,6 +1,5 @@
 {
-  "name": "example-create-react-app-express",
-  "version": "1.0.0",
+  "name": "express-react-starter",
   "scripts": {
     "build": "yarn install && cd client && yarn install",
     "client": "cd client && yarn start",
@@ -11,6 +10,7 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.18.9"
   }
 }
